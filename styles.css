@@ -21,6 +21,20 @@ body {
     background-color: red;
 }
 
+.navbar-nav-div ul{
+    margin-left: 30px;
+}
+
+.navbar-nav-div ul li{
+    display: inline;
+    float: left;
+    line-height: 60px;
+}
+
+.navbar-nav-div ul a {
+    padding: 0 10px;
+}
+
 .navbar-nav-items {
     display: flex;
 }
