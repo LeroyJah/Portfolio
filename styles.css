@@ -7,6 +7,11 @@ body {
     height: 60px;
     background-color: white;
     display: flex;
+    justify-content: space-between;
+}
+
+.navbar-div {
+    display: flex;
 }
 
 .navbar-logo {
@@ -15,28 +20,24 @@ body {
     background-color :blue;
 }
 
-.navbar-nav-div {
+.navbar-nav-items {
     width: fit-content;
     height: 100%;
     background-color: red;
 }
 
-.navbar-nav-div ul{
+.navbar-nav-items ul{
     margin-left: 30px;
 }
 
-.navbar-nav-div ul li{
+.navbar-nav-items ul li{
     display: inline;
     float: left;
     line-height: 60px;
 }
 
-.navbar-nav-div ul a {
+.navbar-nav-items ul a {
     padding: 0 10px;
-}
-
-.navbar-nav-items {
-    display: flex;
 }
 
 .navbar-cta-button {
