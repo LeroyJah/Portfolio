@@ -15,15 +15,24 @@ body {
 }
 
 .navbar-logo {
-    width: 120px;
+    width: fit-content;
     height: 100%;
-    background-color :blue;
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar-logo img {
+    height: 100%;
+}
+
+.navbar-logo h1 {
+    line-height: 60px;
 }
 
 .navbar-nav-items {
     width: fit-content;
     height: 100%;
-    background-color: red;
+    background-color: #009FE2;
 }
 
 .navbar-nav-items ul{
@@ -38,6 +47,13 @@ body {
 
 .navbar-nav-items ul a {
     padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+
+}
+
+.navbar-nav-items ul a:hover {
+    color: white;
 }
 
 .navbar-cta-button {
