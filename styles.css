@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: gray;
+    height: 100%;
 }
 
 .navbar {
@@ -10,12 +15,19 @@ body {
     justify-content: space-between;
 }
 
+.side-bar {
+    height: 100%;
+    width: 75px;
+    background-color: aquamarine;
+}
+
 .navbar-div {
     display: flex;
 }
 
 .navbar-logo {
     width: fit-content;
+    min-width: 170px;
     height: 100%;
     display: flex;
     margin-right: 20px;
