@@ -17,9 +17,29 @@ body {
 }
 
 .side-bar {
-    height: 100%;
+    position: relative;
+    top: 60px;
+    height: calc(100vh - 60px);
     width: 75px;
+    padding: 5px;
+    overflow: hidden;
     background-color: aquamarine;
+}
+
+.side-bar-button {
+    height: 60px;
+    width: 100%;
+    background-color: green;
+}
+
+.side-bar-button:hover {
+opacity: 0.5;
+}
+
+.content-body {
+    position:relative;
+    top: 60px;
+    width: 100%;
 }
 
 .navbar-div {
