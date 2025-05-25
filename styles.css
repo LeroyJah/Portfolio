@@ -14,6 +14,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 
 .side-bar {
@@ -23,23 +24,41 @@ body {
     width: 75px;
     padding: 5px;
     overflow: hidden;
-    background-color: aquamarine;
+    background-color: gray;
 }
 
 .side-bar-button {
     height: 60px;
     width: 100%;
-    background-color: green;
+    border-radius: 5px;
+    background-color: #F98F39;
+    background-image: url("IMG/Menu_logo.png");
+    background-size: 100%;
+    cursor: pointer;
 }
 
 .side-bar-button:hover {
 opacity: 0.5;
 }
 
-.content-body {
+.side-bar ul {
+    padding-top: 20px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-body {
     position:relative;
     top: 60px;
     width: 100%;
+}
+
+.iframe-body {
+    height: 100%;
+    width: 100%;
+
 }
 
 .navbar-div {
@@ -65,7 +84,8 @@ opacity: 0.5;
 .navbar-nav-items {
     width: fit-content;
     height: 100%;
-    background-color: #009FE2;
+    background-color: gray;
+    /* background-color: #009FE2; */
 }
 
 .navbar-nav-items ul{
@@ -92,6 +112,6 @@ opacity: 0.5;
 .navbar-cta-button {
     width: 120px;
     height: 100%;
-    background-color: yellow;
+    background-color: #F98F39;
     float: right;
 }
