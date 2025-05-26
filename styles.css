@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: gray;
+    background-color: lightgray;
     height: 100%;
 }
 
@@ -43,6 +43,12 @@ opacity: 0.5;
 
 .side-bar ul {
     padding-top: 20px;
+    visibility: hidden;
+}
+
+.side-bar li {
+    line-height: 60px;
+    white-space: nowrap;
 }
 
 .hero-section {
