@@ -146,5 +146,20 @@ opacity: 0.5;
     margin: 15px;
     background-color: #f0f0f0;
     text-align: center;
+    height: 96%;
+}
+
+.middle-column-grid {
     height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.commits-div {
+    height: 100%;
+    background-image: url("IMG/commits.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
 }
