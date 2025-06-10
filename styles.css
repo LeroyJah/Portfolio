@@ -163,22 +163,46 @@ opacity: 0.5;
 
 .middle-column-grid {
     height: 100%;
+    padding: 10px;
     display: grid;
     grid-template-columns: auto;
+}
+
+.commits-img {
+    padding: 10px;
+    /* background-color: #F98F39; */
 }
 
 .commits-div {
     height: 100%;
     background-image: url("IMG/commits.png");
     background-position: center;
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin: 0px 10px;
+    border-radius: 50px;
 }
+
+/* .commits-img img {
+    max-width: parent;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+} */
+
+.commits-div:hover {
+    transform: scale(1.05); /* Zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
 
 .portfolio-cards {
     border-style: solid;
     border-width: 1px; 
     margin:10px; 
     border-radius: 5px;
+}
+
+.portfolio-cards:hover {
+    transform: scale(1.05); /* Zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
 }
