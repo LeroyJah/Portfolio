@@ -243,3 +243,18 @@ opacity: 0.5;
 .redirect-button:hover {
     background-color: #E27C00;
 }
+
+.demo-arrow {
+    background-color: #F98F39;
+    width: 50px;
+    height:100%;
+    position: relative;
+    animation-name: shimmey;
+    animation-duration: 2s;
+}
+
+@keyframes shimmey {
+    0% {left:0px; top:0px;}
+    50% {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+}
