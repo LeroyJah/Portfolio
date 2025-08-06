@@ -258,3 +258,20 @@ opacity: 0.5;
     50% {left:200px; top:0px;}
     100% {left:0px; top:0px;}
 }
+
+.hidden {
+    opacity: 0;
+}
+
+.anim-button {
+    padding: 10px 5px;
+    margin: 10px;
+    background-color: #F98F39;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.anim-button:hover {
+    color: black;
+}
