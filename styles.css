@@ -251,6 +251,7 @@ opacity: 0.5;
     position: relative;
     animation-name: shimmey;
     animation-duration: 2s;
+    transition: opacity 0.5s;
 }
 
 @keyframes shimmey {
@@ -263,7 +264,7 @@ opacity: 0.5;
     opacity: 0;
 }
 
-.anim-button {
+.demo-button {
     padding: 10px 5px;
     margin: 10px;
     background-color: #F98F39;
@@ -272,6 +273,6 @@ opacity: 0.5;
     cursor: pointer;
 }
 
-.anim-button:hover {
+.demo-button:hover {
     color: black;
 }

@@ -1,6 +1,13 @@
 let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
 
+const demoButton = document.querySelector(".demo-button");
+const demoArrow = document.querySelector(".demo-arrow")
+
+demoButton.addEventListener("click", () => {
+    demoArrow.classList.toggle("hidden")
+})
+
 let sideBarStatus = false;
 
 let toggleSideBar = function(){
