@@ -2,9 +2,14 @@ let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
 
 const demoButton = document.querySelector(".demo-button");
+const demoButton2 = document.getElementById(".demo-button-2");
 const demoArrow = document.querySelector(".demo-arrow")
 
 demoButton.addEventListener("click", () => {
+    demoArrow.classList.toggle("hidden")
+})
+
+demoButton2.addEventListener("click", () => {
     demoArrow.classList.toggle("hidden")
 })
 
