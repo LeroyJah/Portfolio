@@ -2,7 +2,7 @@ let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
 
 const demoButton = document.querySelector(".demo-button");
-const demoButton2 = document.getElementById(".demo-button-2");
+const demoButton2 = document.getElementById("demo-button-2");
 const demoArrow = document.querySelector(".demo-arrow")
 
 demoButton.addEventListener("click", () => {
@@ -10,7 +10,18 @@ demoButton.addEventListener("click", () => {
 })
 
 demoButton2.addEventListener("click", () => {
-    demoArrow.classList.toggle("hidden")
+    demoArrow.animate(
+        [
+            { transform: 'translateX(0px)' },
+            { transform: 'translateX(200px)' },
+            { transform: 'translateX(0px)' }
+        ], 
+        {
+            duration: 1000,
+            iterations: 2
+        }
+    );
+    // console.log("working");
 })
 
 let sideBarStatus = false;
