@@ -18,3 +18,12 @@ let toggleSideBar = function(){
         sideBarStatus = false;
     }
 }
+
+const nav = document.querySelector('.navbar')
+
+fetch('/header.html')
+.then(res=>res.text())
+.then(data=>{
+    nav.innerHTML = data
+    console.log(data)
+})
