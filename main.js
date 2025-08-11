@@ -2,10 +2,15 @@ import {getHeader} from './header.js'
 
 let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
+let sideBarButton = document.getElementById("side-bar-button");
+
+sideBarButton.addEventListener("click", e => {
+    toggleSideBar();
+});
 
 let sideBarStatus = false;
 
-let toggleSideBar = function(){
+function toggleSideBar(){
     if(sideBarStatus === false){
         sideBar.style.width = "200px";
         sideBarUl.style.visibility = "visible";
