@@ -1,4 +1,4 @@
-import {getHeading} from './header.js'
+import {getHeader} from './header.js'
 
 let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
@@ -23,4 +23,4 @@ let toggleSideBar = function(){
 
 const nav = document.querySelector('.navbar')
 
-// getHeading();
+getHeader();

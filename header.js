@@ -1,4 +1,4 @@
-export function getHeading(){
+export function getHeader(){
     const nav = document.querySelector('.navbar')
 
     fetch('/header.html')
