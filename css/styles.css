@@ -102,7 +102,7 @@ body {
     max-width: 60px;
     border-radius: 5px;
     background-color: #F98F39;
-    background-image: url("IMG/Menu_logo.png");
+    background-image: url("../IMG/Menu_logo.png");
     background-size: 100%;
     cursor: pointer;
 }
@@ -180,7 +180,7 @@ opacity: 0.5;
 
 .commits-div {
     height: 100%;
-    background-image: url("IMG/commits.png");
+    background-image: url("../IMG/commits.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
