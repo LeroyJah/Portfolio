@@ -3,10 +3,16 @@ import {getHeader} from './header.js'
 let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
 let sideBarButton = document.getElementById("side-bar-button");
+const demoButton = document.querySelector(".demo-button");
 
 sideBarButton.addEventListener("click", e => {
     toggleSideBar();
 });
+
+demoButton.addEventListener("click", () => {
+    demoArrow.classList.toggle("hidden")
+})
+
 
 let sideBarStatus = false;
 
