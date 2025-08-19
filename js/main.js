@@ -1,16 +1,20 @@
 import {getHeader} from './header.js'
-import { demoArrow,demoButton,demoButton2 } from './demo.js';
+// import { demoArrow,demoButton,demoButton2 } from './demo.js';
 import { toggleSideBar,sideBarButton } from './siderBar.js';
 
-sideBarButton.addEventListener("click", e => {
-    toggleSideBar();
-});
+export const demoButton = document.getElementById("demo-button");
+export const demoButton2 = document.getElementById("demo-button-2");
+export const demoArrow = document.querySelector(".demo-arrow")
 
-demoButton.addEventListener("click", () => {
+getHeader();
+
+if(demoButton){
+    demoButton.addEventListener("click", () => {
     demoArrow.classList.toggle("hidden")
 })
-
-demoButton2.addEventListener("click", () => {
+}
+if(demoButton2){
+    demoButton2.addEventListener("click", () => {
     demoArrow.animate(
         [
             { transform: 'translateX(0px)' },
@@ -25,6 +29,10 @@ demoButton2.addEventListener("click", () => {
     // console.log("working");
 })
 
+}
+sideBarButton.addEventListener("click", e => {
+    toggleSideBar();
+});
+
 const nav = document.querySelector('.navbar')
 
-getHeader();
