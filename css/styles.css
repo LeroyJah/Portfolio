@@ -39,7 +39,7 @@ body {
 }
 
 .navbar-nav-items {
-    width: fit-content;
+    width: fit-content !important;
     height: 100%;
     background-color: gray;
     /* background-color: #009FE2; */
@@ -70,11 +70,9 @@ body {
     width: 120px;
     height: 100%;
     background-color: #F98F39;
-    align-self: center;
     border-radius: 5px;
     display: flex; 
-
-    /* text-align: center; */
+    float: right;
 }
 
 .navbar-cta-button a {
