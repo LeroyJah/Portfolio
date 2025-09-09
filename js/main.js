@@ -7,6 +7,7 @@ export const demoButton2 = document.getElementById("demo-button-2");
 export const demoArrow = document.querySelector(".demo-arrow")
 
 getHeader();
+getSideBar();
 
 if(demoButton){
     demoButton.addEventListener("click", () => {
