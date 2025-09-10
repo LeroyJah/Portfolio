@@ -1,4 +1,5 @@
 import {getHeader} from './header.js'
+import {getSideBar} from '.sideBarModule.js'
 // import { demoArrow,demoButton,demoButton2 } from './demo.js';
 import { toggleSideBar,sideBarButton } from './siderBar.js';
 
