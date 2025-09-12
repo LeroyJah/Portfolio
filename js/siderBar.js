@@ -1,6 +1,6 @@
 let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
-export let sideBarButton = document.getElementById("side-bar-button");
+// export let sideBarButton = document.getElementById("side-bar-button");
 
 let sideBarStatus = false;
 
