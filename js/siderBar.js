@@ -1,6 +1,5 @@
 let sideBar = document.querySelector(".side-bar");
 let sideBarUl = document.querySelector(".side-bar ul");
-// export let sideBarButton = document.getElementById("side-bar-button");
 
 let sideBarStatus = false;
 
@@ -18,4 +17,14 @@ export function toggleSideBar(){
 
         sideBarStatus = false;
     }
+}
+
+export function getSideBar(){
+    const sidenav = document.querySelector('.side-bar')
+
+    fetch('/sidebar.html')
+    .then(res=>res.text())
+    .then(data=>{
+        sidenav.innerHTML=data
+    })
 }
