@@ -103,6 +103,7 @@ body {
     background-image: url("../IMG/Menu_logo.png");
     background-size: 100%;
     cursor: pointer;
+    z-index: 1;
 }
 
 .side-bar-button:hover {

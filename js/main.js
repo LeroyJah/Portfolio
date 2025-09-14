@@ -1,5 +1,4 @@
 import {getHeader} from './header.js'
-// import { demoArrow,demoButton,demoButton2 } from './demo.js';
 import {getSideBar, toggleSideBar} from './siderBar.js';
 
 export const demoButton = document.getElementById("demo-button");
@@ -7,11 +6,9 @@ export const demoButton2 = document.getElementById("demo-button-2");
 export const demoArrow = document.querySelector(".demo-arrow")
 
 getHeader();
-getSideBar();
+// getSideBar();
 
-let sideBarButton = document.getElementById("side-bar-button");
-
-sideBarButton.addEventListener("click", e => {
+getSideBar().addEventListener("click", e => {
     toggleSideBar();
 });
 

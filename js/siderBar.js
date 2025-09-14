@@ -27,4 +27,9 @@ export function getSideBar(){
     .then(data=>{
         sidenav.innerHTML=data
     })
+    .catch((error) => {
+        console.warn(error);
+    });
+
+    return sideBarButton = document.getElementById("side-bar-button");
 }
